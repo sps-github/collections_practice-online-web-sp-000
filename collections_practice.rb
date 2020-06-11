@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
-  array.each_with_index.collect{|element, index|}
+  array.each_with_index.collect {|element, index|}
   if index == 1
     element
   else
