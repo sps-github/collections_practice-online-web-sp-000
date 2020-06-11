@@ -28,4 +28,6 @@ def kesha_maker(array)
 end
 
 def sum_array(array)
+  array = [11,4,7,8,9,100,134]
+  array.inject(0) { |result, num| result + num }
 end
