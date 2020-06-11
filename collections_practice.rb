@@ -32,8 +32,12 @@ def find_a(array)
   array.select { |str| str.start_with?("a") }
 end
 
-
 def sum_array(array)
   array = [11,4,7,8,9,100,134]
   array.inject(0) { |result, num| result + num }
 end
+
+def add_s(array)
+  array = ["hand","feet", "knee", "table"]
+  [1,2].each_with_index.collect{|element, index|}
+end  
