@@ -22,3 +22,9 @@ def reverse_array(array)
   array = [12, 4, 35]
   array.reverse
 end
+
+def kesha_maker(array)
+  array = ["blake", "ashley", "scott"]
+end
+
+def sum_array(array)
