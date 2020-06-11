@@ -27,6 +27,12 @@ def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
 end
 
+def find_a(array)
+  array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  array.start_with?(a)
+end
+
+
 def sum_array(array)
   array = [11,4,7,8,9,100,134]
   array.inject(0) { |result, num| result + num }
