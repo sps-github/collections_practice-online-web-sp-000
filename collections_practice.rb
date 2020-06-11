@@ -16,6 +16,7 @@ end
 def swap_elements(array)
   array = ["blake", "ashley", "scott"]
   array[0], array[1] = array[1], array[0]
+  return array
 end
 
 def reverse_array(array)
