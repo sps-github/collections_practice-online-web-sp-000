@@ -29,7 +29,7 @@ end
 
 def find_a(array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  array.start_with?("a")
+  array.select { |str| str.start_with?("a") }
 end
 
 
